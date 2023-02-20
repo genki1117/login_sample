@@ -4,6 +4,9 @@ namespace App\Domain\Interface\Login;
 
 use App\Domain\Entities\User\UserLoginEntity;
 
+/**
+ * ログインサンプル
+ */
 interface UserLoginInterface
 {
     /**

@@ -7,6 +7,9 @@ use App\Http\Responses\UserLoginResponse;
 use App\Domain\Service\Login\UserLoginService;
 use Illuminate\Http\Request;
 
+/**
+ * ログインサンプル
+ */
 class UserLoginController extends Controller
 {
     /** @var UserLoginResponse $userLoginResponse */

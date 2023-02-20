@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/** ログインサンプル */
 Route::get('/login', [UserLoginController::class, 'index'])->name('login.index');
 Route::post('/login', [UserLoginController::class, 'login'])->name('login.post');
 

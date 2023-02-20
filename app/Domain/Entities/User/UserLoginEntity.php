@@ -1,6 +1,9 @@
 <?php
 namespace App\Domain\Entities\User;
 
+/**
+ * ログインサンプル
+ */
 class UserLoginEntity {
 
     private ?\stdClass $loginUserInfo;

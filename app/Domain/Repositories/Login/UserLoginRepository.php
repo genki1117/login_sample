@@ -5,6 +5,9 @@ use App\Domain\Entities\User\UserLoginEntity;
 use App\Domain\Accessers\db\User;
 use App\Domain\Interface\Login\UserLoginInterface;
 
+/**
+ * ログインサンプル
+ */
 class UserLoginRepository implements UserLoginInterface
 {
     /** @var UserModel $user */

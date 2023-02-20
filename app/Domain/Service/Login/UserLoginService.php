@@ -6,6 +6,9 @@ use App\Http\Responses\UserLoginResponse;
 use Illuminate\Support\Facades\Hash;
 use App\Domain\Interface\Login\UserLoginInterface;
 
+/**
+ * ログインサンプル
+ */
 class UserLoginService
 {
     /** @var UserLoginResponse $userLoginResponse */

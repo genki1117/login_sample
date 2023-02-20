@@ -1,6 +1,9 @@
 <?php
 namespace app\Http\Responses;
 
+/**
+ * ログインサンプル
+ */
 class UserLoginResponse {
 
     public function getLoginResponse()

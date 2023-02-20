@@ -5,6 +5,9 @@ namespace App\Domain\Accessers\db;
 use Illuminate\Support\Facades\DB;
 use stdClass;
 
+/**
+ * ログインサンプル
+ */
 class User{
     protected $table = 'users';
 
